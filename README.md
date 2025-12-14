@@ -30,5 +30,7 @@ pip install -r requirements.txt
 python scripts/events_fadigue.py
 
 
-OBS: Muito importante rodar esse script em ambiente seguro, de preferencia em env, devido a algumas particularidades da biblioteca do pandas, precisamos dela super atualizada e com algumas modificações, que muito provavelmente quebraria qualquer outra aplicação que utiliza a mesma lib!!!!!!!!!
+## OBS:
+
+Muito importante rodar esse script em ambiente seguro, de preferencia em env, devido a algumas particularidades da biblioteca do pandas, precisamos dela super atualizada e com algumas modificações, que muito provavelmente quebraria qualquer outra aplicação que utiliza a mesma lib!!!!!!!!!
 
