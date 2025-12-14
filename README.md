@@ -2,6 +2,10 @@
 
 Este projeto identifica alertas de monitoramento sem efetividade, baseado em técnicas inspiradas na Netflix e regras que eu entendo que sejam interessantes com minha experiencia no assunto.
 
+## OBS:
+
+Muito importante rodar esse script em ambiente seguro, de preferencia em env, devido a algumas particularidades da biblioteca do pandas, precisamos dela super atualizada e com algumas modificações, que muito provavelmente quebraria qualquer outra aplicação que utiliza a mesma lib!!!!!!!!!
+
 ## Funcionalidades
 
 - Analisa alertas por host, item e descrição.
@@ -14,6 +18,7 @@ Este projeto identifica alertas de monitoramento sem efetividade, baseado em té
 - `data/`: Coloque aqui o CSV de alertas.
 - `scripts/`: Script principal.
 - `results/`: CSVs gerados.
+
 
 ## Como usar
 
@@ -30,7 +35,5 @@ pip install -r requirements.txt
 python scripts/events_fadigue.py
 
 
-## OBS:
 
-Muito importante rodar esse script em ambiente seguro, de preferencia em env, devido a algumas particularidades da biblioteca do pandas, precisamos dela super atualizada e com algumas modificações, que muito provavelmente quebraria qualquer outra aplicação que utiliza a mesma lib!!!!!!!!!
 
